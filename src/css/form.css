@@ -8,11 +8,35 @@
 input {
     border: 1px solid #808080;
     border-radius: 4px;
-    width: 360px;
     height: 40px;
+    padding: 0 16px 0 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
 }
 
 input:hover {
+    border: 1px solid #000;
+}
+
+textarea {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    height: 100%;
+    resize: none;
+    padding: 8px 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+textarea:hover {
     border: 1px solid #000;
 }
 
@@ -29,7 +53,6 @@ label {
     gap: 8px;
 }
 
-
 button {
     background: #4e75ff;
     border: none;
@@ -37,7 +60,7 @@ button {
     padding: 8px 16px;
     width: 95px;
     height: 40px;
-    font-family: inherit;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -46,6 +69,6 @@ button {
     margin-top: 8px;
 }
 
-.button:hover {
+button:hover {
     background: #6c8cff;
 }
