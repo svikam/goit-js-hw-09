@@ -19,6 +19,7 @@ function populateText() {
     const { email, message } = form.elements;
     email.value = data.email;
     message.value = data.message;
+    Object.assign(formData, data);
 }
 
 form.addEventListener('submit', handleSubmit);
